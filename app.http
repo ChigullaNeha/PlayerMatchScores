@@ -11,3 +11,15 @@ Content-Type: application/json
 {   
     "playerName": "Raju"
 }
+
+###GET MATCH DETAILS
+GET http://localhost:3000/matches/18
+
+###Player match details
+GET http://localhost:3000/players/1/matches
+
+###API-6
+GET http://localhost:3000/matches/1/players
+
+###API-7
+GET http://localhost:3000/players/1/playerScores
